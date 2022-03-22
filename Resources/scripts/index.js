@@ -1,5 +1,7 @@
 function getBooks(){
-    const allBooksApiUrl = "https://localhost:5001/api/books";
+    //const allBooksApiUrl = "https://localhost:5001/api/books";
+    const allBooksApiUrl = "https://webappapi321.herokuapp.com/api/books";
+
     //Javascript doesn't wait for a return value to execute the next method
     //use "then" to wait until it returns
     fetch(allBooksApiUrl).then(function(response){
