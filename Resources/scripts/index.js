@@ -20,7 +20,8 @@ function getBooks(){
 }
 
 function postBook(){
-    const postBookApiUrl = "https://localhost:5001/api/books";
+    //const postBookApiUrl = "https://localhost:5001/api/books";
+    const allBooksApiUrl = "https://webappapi321.herokuapp.com/api/books";
     const bookTitle = document.getElementById("title").value;
     const bookAuthor = document.getElementById("author").value;
 
